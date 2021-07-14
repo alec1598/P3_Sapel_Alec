@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="shortcut icon" href="images/logo/ohmyfood@2x.svg" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_mobile.css">
+    <link rel="shortcut icon" href="images/logo/ohmyfood@2x.svg" />
     <script src="https://kit.fontawesome.com/6c4bf069e4.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ohmyfood</title>
+    <title>Accueil - ohmyfood</title>
 </head>
 <body>
     <main id="bloc_pages">
 
-<!--HEADER-->
-<header>
-    <div class="logo">
-        <a href="#"><img src="images/logo/ohmyfood.png" alt="logo ohmyfood"></a>
-    </div>
-        <div class="position_header">
-            <i class="fas fa-map-marker-alt"></i>
-                 <h3>Paris, Belleville</h3>
-  </div>
-  <div class="title_header">
-        <h1>Réservez votre menu qui vous convient</h1>
-        <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-    <div class="bouton_eat">
-        <button>Ecplorez nos restaurants</button>
-    </div>
-  </div>
-</header>
+<!--LOADING-->
+<div class="loader">
+    <div class="loader__circle"></div>
+</div>
 
-<!--Fonctionnement-->
+<!--TITLE-->
+<div class="logo">
+    <a href="index.html"><img src="images/logo/ohmyfood.png" alt="logo ohmyfood"></a>
+</div>
+
+<!--POSITION-->
+<div class="lieux_header">
+    <i class="fas fa-map-marker-alt"></i>
+       <h3>Paris, Belleville</h3>
+</div>
+
+<!--TEXTE / BOUTON-->
+<section class="text_header">
+    <h1>Réservez le menu qui vous convient</h1>
+       <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+
+        <a class="presentation__explore" href="#">Explorer nos restaurants</a>      
+</section>
+
+<!--FONCTIONNEMENT-->
 <div> <h2 class="function__title">Fonctionnement</h2></div>
 	   
 <section class="function">
@@ -45,8 +52,7 @@
     </div>
 </section>
 
-<!--Restaurant-->
-
+<!--CARTE RESTO-->
 <section class="restaurants">
     <div class="restaurants__title">
         <h2>Restaurants</h2>
@@ -160,7 +166,6 @@
         <h3>Contact</h3>
     </a>
 </footer>
-</main>
-
+    </main>
 </body>
 </html>
