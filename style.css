@@ -189,6 +189,7 @@ h1{
 
 /*Fonctionnement*/
 .function__title {
+    padding-top: 20px;
     margin: 0 0 20px 22px;
     color: black;
   }
@@ -297,7 +298,6 @@ h1{
   .restaurants__card .restaurants__card__content .heart {
     position: absolute;
     right: 20px;
-    top: 1;
     font-size: 1em;
     color: black;
   
